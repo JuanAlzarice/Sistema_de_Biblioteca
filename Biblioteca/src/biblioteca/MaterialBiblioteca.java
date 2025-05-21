@@ -1,8 +1,7 @@
-
 package biblioteca;
 
-
 abstract class MaterialBiblioteca {
+
     protected String titulo;
     protected String autor;
     protected int añoPublicacion;
@@ -12,9 +11,7 @@ abstract class MaterialBiblioteca {
         this.autor = autor;
         this.añoPublicacion = añoPublicacion;
     }
-    
-    
+
     public abstract void mostrarInformacion();
 
 }
-
